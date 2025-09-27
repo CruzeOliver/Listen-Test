@@ -1,6 +1,6 @@
 import sys
 import numpy as np
-import pyaudio
+#import pyaudio #MACos下无法使用
 from PyQt5.QtWidgets import QApplication, QMainWindow, QVBoxLayout
 from PyQt5.QtCore import QThread, pyqtSignal, Qt, QTimer
 import math
